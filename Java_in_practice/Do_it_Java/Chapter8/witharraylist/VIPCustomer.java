@@ -1,4 +1,4 @@
-package inheritance;
+package witharraylist;
 
 public class VIPCustomer extends Customer{
 	// 상속을 통해 코드를 재사용해서 매우 간결하게 코드를 작성할 수 있다.
@@ -41,5 +41,10 @@ public class VIPCustomer extends Customer{
 	
 	public int getAgentID() {
 		return agentID;
+	}
+
+	@Override
+	public String showCustomerInfo() {
+		return super.showCustomerInfo() + "담당 상담원 아이디는 " + agentID + "입니다."; // super를 빼면 자기 자신을 계속 호출하므로 무한루프가 발생한다.
 	}
 }

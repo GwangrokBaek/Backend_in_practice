@@ -26,7 +26,7 @@ public class CustomerTest1 {
 		customerLee.setCustomerName("Lee");
 		*/
 		
-		VIPCustomer customerKim = new VIPCustomer(10101, "Kim");
+		VIPCustomer customerKim = new VIPCustomer(10101, "Kim", 100);
 		// 하위 클래스가 생성될 때에는 항상 상위 클래스가 먼저 생성된다.
  		// customerKim.setCustomerID(10101);
 		// customerKim.setCustomerName("Kim");
