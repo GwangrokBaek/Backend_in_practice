@@ -21,7 +21,7 @@
 package lambda;
 
 interface PrintString {
-	void showString(String str);
+	void showString(String str); // 함수형 인터페이스에서 메서드는 선언만 해준 뒤, 아래에서 람다식을 작성하고 이를 함수형 인터페이스형 변수에 할당할 경우, 해당 람다식이 메서드의 구현부로 정의된다.
 }
 
 public class LambdaTest {
