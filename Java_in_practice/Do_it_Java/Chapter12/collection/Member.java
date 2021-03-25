@@ -5,13 +5,13 @@
 // 여러 인터페이스와 구현 클래스 사용 방법을 이해해야 한다.
 
 /*
- * 		Collection (단일 객체)	 |	    		   Map (쌍으로된 객체 key - value pair)
- * 	 ^				^		 |		 ^			^		  ^
- * List			   Set		 |	  HashTable  HashMap   TreeMap
- *   ^				^		 |	     ^
- * ArrayList	 HashSet	 |	 Properties
- * Vector		 TreeSet     |
- * LinkedList                |
+ * 	 Collection (단일 객체)	       |	    Map (쌍으로된 객체 key - value pair)
+ *   ^			    ^		 |		 ^		^	  ^
+ * List			   Set		 |	     HashTable       HashMap   TreeMap
+ *   ^			    ^		 |	    	 ^
+ * ArrayList	 	 HashSet	 |	     Properties
+ * Vector		 TreeSet     	 |
+ * LinkedList             	         |
  * 
  * 위 계층 구조는 특정 클래스를 구현하는데 있어 어떤 것을 구현해야 하는지에 대한 정보를 알려준다. ArrayList 를 구현하기 위해서는 해당 클래스가 List에 포함되고,
  * Collection 범주에 포함되므로 List 인터페이스에서 사용하는 것들을 구현하고, Collection 인터페이스에서 사용되는 메서드들을 구현해야함을 알려준다.
